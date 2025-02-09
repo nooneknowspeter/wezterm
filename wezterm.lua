@@ -162,6 +162,13 @@ config.keys = {
 		mods = "CTRL|SHIFT",
 		action = wezterm.action.ActivateCommandPalette,
 	},
+
+	-- vi mode
+	{
+		key = "Space",
+		mods = "CTRL|SHIFT",
+		action = wezterm.action.ActivateCopyMode,
+	},
 }
 
 return config
