@@ -1,9 +1,8 @@
 local wezterm = require("wezterm")
 
-local config = {}
 
 -- keybindings
-local keys = {
+return {
 
 	-- split pane horizontally
 	{
@@ -102,5 +101,3 @@ local keys = {
 		action = wezterm.action.ActivateCommandPalette,
 	},
 }
-
-return keys
