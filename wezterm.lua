@@ -23,7 +23,7 @@ config.term = "xterm-256color"
 config.prefer_egl = true
 
 -- color_scheme
-config.color_scheme = "Monokai Remastered"
+config.color_scheme = "Black Metal (Dark Funeral) (base16)"
 
 -- font
 config.font = wezterm.font("FiraCode Nerd Font")
