@@ -26,8 +26,8 @@ config.prefer_egl = true
 config.color_scheme = "Black Metal (Dark Funeral) (base16)"
 
 -- font
-config.font = wezterm.font("FiraCode Nerd Font")
 config.font_size = 12.0
+config.font = wezterm.font("JetBrainsMono Nerd Font")
 -- prevent window from changing in size while +/- font size
 config.adjust_window_size_when_changing_font_size = false
 
