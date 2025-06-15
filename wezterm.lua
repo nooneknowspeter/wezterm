@@ -21,6 +21,7 @@ config.animation_fps = 1
 config.cursor_blink_rate = 600 -- in ms
 config.term = "xterm-256color"
 config.prefer_egl = true
+config.enable_wayland = false
 
 -- color_scheme
 config.color_scheme = "Black Metal (Dark Funeral) (base16)"
